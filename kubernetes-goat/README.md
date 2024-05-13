@@ -124,7 +124,7 @@ Time to fix that...
 Time to go back to your bash:
 
 ```shell
-bash access-kubernetes-goat.sh
+curl -s https://raw.githubusercontent.com/kubescape/kubescape/master/install.sh | /bin/bash
 ```
 
 After the installation, a first scan is triggered automatically, you will see how NOT great the GOAT is!
