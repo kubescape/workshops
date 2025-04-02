@@ -1,5 +1,7 @@
 # KubeCon EU 2025 Kubescape Threat Hunt
 
+![Banner](assets/banner.png)
+
 ## Prerequisites
 
 Make sure you have the following tools installed:
