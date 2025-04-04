@@ -33,7 +33,7 @@ git clone --depth 1 https://github.com/kubescape/node-agent.git
 cd node-agent
 chmod +x demo/general_attack/webapp/setup.sh
 ./demo/general_attack/webapp/setup.sh
-kubectl port-forward -n default svc/webapp 8080:80
+kubectl port-forward -n default svc/ping-app 8080:80
 ```
 
 This will deploy a sample web application and a service to expose it.
